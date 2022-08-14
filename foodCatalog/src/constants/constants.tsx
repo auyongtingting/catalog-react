@@ -1,0 +1,5 @@
+export const KOREAN_PRODUCTS = "Korean Products"
+export const KOREAN = "korean"
+export const CHINESE = "chinese"
+export const JAPANESE = "Japanese"
+export const CATALOG = "CATALOG"
