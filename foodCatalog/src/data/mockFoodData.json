@@ -1,0 +1,83 @@
+{
+    "catalog_count": 3,
+    "catalog": [
+      {
+        "prod_group": "Korean products",
+        "items": [
+          {
+            "prod_name": "Product 1",
+            "img": "/images/HotPepperPaste.png",
+            "moq": 20,
+            "price": 4.5,
+            "unit": "carton"
+          },
+          {
+            "prod_name": "Product 2",
+            "img": "/images/bbqSauce.png",
+            "moq": 20,
+            "price": 4.5,
+            "unit": "carton"
+          },
+          {
+            "prod_name": "Product 3",
+            "img": "/images/spicyBBQSauce.png",
+            "moq": 20,
+            "price": 4.5,
+            "unit": "carton"
+          }
+        ]
+      },
+      {
+        "prod_group": "Chinese products",
+        "items": [
+          {
+            "prod_name": "Product 1",
+            "img": "/images/HotPepperPaste.png",
+            "moq": 10,
+            "price": 3.5,
+            "unit": "carton"
+          },
+          {
+            "prod_name": "Product 2",
+            "img": "/images/bbqSauce.png",
+            "moq": 10,
+            "price": 3.5,
+            "unit": "carton"
+          },
+          {
+            "prod_name": "Product 3",
+            "img": "/images/spicyBBQSauce.png",
+            "moq": 10,
+            "price": 3.5,
+            "unit": "carton"
+          }
+        ]
+      },
+      {
+        "prod_group": "Japanese products",
+        "items": [
+          {
+            "prod_name": "Product 1",
+            "img": "/images/HotPepperPaste.png",
+            "moq": 5,
+            "price": 2.5,
+            "unit": "carton"
+          },
+          {
+            "prod_name": "Product 2",
+            "img": "/images/bbqSauce.png",
+            "moq": 5,
+            "price": 2.5,
+            "unit": "carton"
+          },
+          {
+            "prod_name": "Product 3",
+            "img": "/images/spicyBBQSauce.png",
+            "moq": 5,
+            "price": 2.5,
+            "unit": "carton"
+          }
+        ]
+      }
+    ]
+  }
