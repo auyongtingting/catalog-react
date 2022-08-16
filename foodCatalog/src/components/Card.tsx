@@ -4,12 +4,13 @@ import "../styles/productCard.css"
 function Card(props: any) {
   return (
     <div className='max-w-sm rounded overflow-hidden shadow-lg m-5'>
-      <img className='max-w-4md mx-auto' src={props.prodImage} alt='Product'/>
+      {props.missionLink != "" ? <img className='max-w-4md mx-auto' src={props.missionLink} alt='NO IMAGE'/> : <img className='max-w-4md mx-auto' src='/images/noimage.jpeg' alt='NO IMAGE'/>}
       <div className='px-6 py-4'>
-        <div className='font-bold text-xl mb-2 productDetails'>{props.prodName}</div>
+        <div className='font-bold text-xl mb-2 productDetails'>{props.missionName}</div>
         <div>
-          MOQ {props.prodMoq} Units <br></br>
-          SGD {props.prodPrice} /{props.prodUnits}
+          {props.rocketName}<br></br>
+          {props.missionSite}
+          {props.missionDate}
         </div>
       </div>
     </div>
