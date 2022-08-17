@@ -1,24 +1,27 @@
-
+/** Child **/ 
 export interface launchData {
-  /** UNIX timestamp of launch   */ launch_date_local: string;
-  /** Launch mission name   */ mission_name: string;
-  /** Rocket name   */ rocket: { rocket_name: string };
-  /** Launch site   */ launch_site: { site_name: string };
-  /** Object containing array of image urls */
-  links: {
-    flickr_images: [string | undefined];
+  mission_name: string; /** Mission Name **/ 
+  launch_date_local: string; /** Local Launch Date **/ 
+  launch_site: {
+    site_name: string /** Launch Site Name **/ 
+  };
+  links : {
+    flickr_images: string /** Launch Images **/ 
+  };
+  rocket: {
+    rocket_name: string /** Rocket Name **/ 
   };
 }
 
+/** Parent **/ 
 export interface spaceXSite {
-  /** Array of spaceXSitesData   */
-  data: launchData[];
+  /** Array of data from each launch - launchData  */
+  launchesPast: launchData[];
 }
 
-
+/** Grandparent **/ 
 export interface spaceXGQL {
-    /** Dynamic keys of spaceXSite objects   */
-    [data: string]: spaceXSite[];
+    [data: string]: spaceXSite;
   }
 
 
